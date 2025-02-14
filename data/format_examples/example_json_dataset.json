@@ -1,0 +1,41 @@
+    {
+        "id": 111,
+        "conversation": [
+            {
+                "role": "system",
+                "text": "<bos> WEATHER_KB: {\"clear\": \"Sunny and cloudless\", \"cloudy\": \"Overcast with no precipitation\", \"rainy\": \"Light to heavy rain\", \"snowy\": \"Light to heavy snow\", \"thunderstorm\": \"Storm with thunder and lightning\", \"windy\": \"Strong winds\"} <eos>"
+            },
+            {
+                "role": "user",
+                "text": "<bos> What is cloudy weather like? <eos>"
+            },
+            {
+                "role": "assistant",
+                "text": "<bos> Cloudy weather is described as overcast with no precipitation in my WEATHER_KB knowledge base. <eos>"
+            },
+            {
+                "role": "user",
+                "text": "<bos> What kind of precipitation can happen during rainy weather? <eos>"
+            },
+            {
+                "role": "assistant",
+                "text": "<bos> Rainy weather can bring light to heavy rain. <eos>"
+            },
+            {
+                "role": "user",
+                "text": "<bos> What is a thunderstorm? <eos>"
+            },
+            {
+                "role": "assistant",
+                "text": "<bos> A thunderstorm is a storm with thunder and lightning, according to my WEATHER_KB knowledge base. <eos>"
+            },
+            {
+                "role": "user",
+                "text": "<bos> Can you describe windy weather? <eos>"
+            },
+            {
+                "role": "assistant",
+                "text": "<bos> Windy weather is characterized by strong winds. <eos>"
+            }
+        ]
+    },
