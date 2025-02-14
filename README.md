@@ -54,9 +54,9 @@ The model's architecture is based on a Transformer network. The core configurati
 # Model configuration
 model_config = {
     'vocab_size': vocab_size,
-    'd_model': 128,          # Embedding dimension and attention head size
-    'nhead': 4,              # Number of attention heads
-    'num_layers': 2,         # Number of encoder/decoder layers
-    'dim_feedforward': 256, # Dimension of the feedforward network in the transformer block
+    'd_model': 512,          # Embedding dimension and attention head size
+    'nhead': 8,              # Number of attention heads
+    'num_layers': 8,         # Number of encoder/decoder layers
+    'dim_feedforward': 2048, # Dimension of the feedforward network in the transformer block
     'dropout': 0.1           # Dropout rate for regularization
 }
