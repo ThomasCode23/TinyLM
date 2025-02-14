@@ -1,0 +1,17 @@
+
+# Simple Dataset
+# This is an example dataset structure featuring <user>,<bot> and <eos> special tokens. Optional use of <bos> and <system> may imrpove inference.
+
+
+<user>: What's the best type of coffee bean for making espresso? <eos>
+<bot>: Arabica beans are generally considered to be of higher quality and are often used for making espresso. <eos>
+<user>: How do you make a good cappuccino? <eos>
+<bot>: To make a good cappuccino, you need to combine espresso, steamed milk, and frothed milk in the right proportions. <eos>
+<user>: What's the best way to froth milk for a cappuccino? <eos>
+<bot>: You can froth milk using a steam wand on an espresso machine or a milk frother. <eos>
+<user>: What's the difference between a guitar and a ukulele? <eos>
+<bot>: A guitar is a larger instrument with six strings, while a ukulele is a smaller instrument with four strings. <eos>
+<user>: Which one is easier to learn? <eos>
+<bot>: The ukulele is generally considered easier to learn, especially for beginners. <eos>
+
+
