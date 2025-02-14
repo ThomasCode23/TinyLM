@@ -1,6 +1,6 @@
 # TinyLM
 
-TinyLM is an experimental project aimed at creating a small, efficient language model capable of basic conversational inference. The goal is to train a coherent language model on modest hardware and with limited data, making it accessible for research, education, and resource-constrained applications. This repository contains the code and documentation for training and deploying TinyLM inference. Bring your own dataset.
+TinyLM is an experimental project aimed at creating a small, efficient language model capable of basic conversational inference. The goal is to train a coherent language model on modest hardware and with limited data, making it accessible for research, education, and resource-constrained applications. This repository contains the code and documentation for training and deploying TinyLM inference. **Bring your own dataset**.
 
 ## Overview
 
@@ -78,7 +78,7 @@ The model's architecture is based on a Transformer network. The core configurati
 *   `dim_feedforward`: Dimension of the feedforward network in the transformer block.
 *   `dropout`: Dropout rate for regularization.
 
-## Getting Started
+## **Getting Started**
 
 1.  **Clone the repository:** `
 2.  **Install dependencies:** `
